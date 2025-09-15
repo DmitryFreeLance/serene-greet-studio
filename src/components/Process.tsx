@@ -8,19 +8,19 @@ export const Process = () => {
       icon: Phone,
       number: "01",
       title: "Консультация",
-      description: "Звоните или пишите в Telegram. Проводим диагностику вашего случая и определяем стратегию восстановления.",
+      description: "Звоните или пишите в Telegram. Провожу диагностику вашего случая и определяю стратегию восстановления.",
     },
     {
       icon: FileText,
       number: "02", 
       title: "Анализ блокировки",
-      description: "Анализируем причину блокировки и подбираем оптимальный метод разблокировки для вашего аккаунта.",
+      description: "Анализирую причину блокировки и подбираю оптимальный метод разблокировки для вашего аккаунта.",
     },
     {
       icon: Settings,
       number: "03",
       title: "Восстановление",
-      description: "Запускаем процесс разблокировки с использованием специального программного обеспечения.",
+      description: "Запускаю процесс разблокировки с использованием специального программного обеспечения.",
     },
     {
       icon: CheckCircle,
@@ -76,7 +76,7 @@ export const Process = () => {
             <CheckCircle className="h-8 w-8 text-primary flex-shrink-0" />
             <div className="text-left">
               <h3 className="font-bold text-foreground">100% гарантия восстановления</h3>
-              <p className="text-sm text-muted-foreground">Возвращаем деньги, если не сможем разблокировать ваш аккаунт</p>
+              <p className="text-sm text-muted-foreground">Возвращаю деньги, если не смогу разблокировать ваш аккаунт</p>
             </div>
           </div>
         </div>

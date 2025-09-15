@@ -83,7 +83,7 @@ export const Reviews = () => {
           <div className="inline-flex items-center gap-2 p-4 bg-accent/50 rounded-lg">
             <MessageCircle className="h-5 w-5 text-primary" />
             <span className="font-medium">
-              Подробные описания проблем и их решений в нашем Telegram-канале
+              Подробные описания проблем и их решений в моем Telegram-канале
             </span>
           </div>
           

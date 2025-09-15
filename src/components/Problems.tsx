@@ -60,7 +60,7 @@ export const Problems = () => {
             Аккаунт уже заблокирован?
           </h3>
           <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Не паникуйте! Мы поможем восстановить доступ к вашему WhatsApp используя 
+            Не паникуйте! Я помогу восстановить доступ к вашему WhatsApp используя
             проверенные методы и уникальное программное обеспечение.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
