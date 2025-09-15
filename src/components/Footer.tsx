@@ -37,7 +37,7 @@ export const Footer = () => {
         
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 Разблокировка WhatsApp. Все права защищены.
+            © 2025 Разблокировка WhatsApp. Все права защищены.
           </p>
         </div>
       </div>
