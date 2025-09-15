@@ -15,7 +15,7 @@ export const Header = () => {
             Услуги
           </a>
           <a href="#about" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-            О нас
+            Обо мне
           </a>
           <a href="#contact" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
             Контакты
