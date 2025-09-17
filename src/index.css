@@ -24,7 +24,7 @@ All colors MUST be HSL.
     --primary-hover: 142 45% 28%;
 
     --secondary: 0 0% 15%; /* Black for sections */
-    --secondary-foreground: 45 15% 92%; /* Beige text on black */
+    --secondary-foreground: 0 0% 100%; /* White text on black */
 
     --muted: 45 10% 85%;
     --muted-foreground: 0 0% 45%;
