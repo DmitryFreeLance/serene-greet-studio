@@ -8,42 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* WhatsApp color scheme */
-    --background: 0 0% 98%;
-    --foreground: 0 0% 11%;
+    /* Beige background scheme */
+    --background: 45 15% 92%; /* Light beige */
+    --foreground: 0 0% 11%; /* Black text */
 
-    --card: 0 0% 100%;
+    --card: 45 15% 95%; /* Lighter beige for cards */
     --card-foreground: 0 0% 11%;
 
-    --popover: 0 0% 100%;
+    --popover: 45 15% 95%;
     --popover-foreground: 0 0% 11%;
 
-    /* WhatsApp green primary colors */
-    --primary: 142 70% 49%;
+    /* Dark green primary colors */
+    --primary: 142 45% 35%; /* Dark green */
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 142 70% 42%;
+    --primary-hover: 142 45% 28%;
 
-    --secondary: 0 0% 96%;
-    --secondary-foreground: 0 0% 11%;
+    --secondary: 0 0% 15%; /* Black for sections */
+    --secondary-foreground: 45 15% 92%; /* Beige text on black */
 
-    --muted: 0 0% 96%;
+    --muted: 45 10% 85%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 142 16% 94%;
-    --accent-foreground: 142 70% 49%;
+    --accent: 45 20% 88%; /* Accent beige */
+    --accent-foreground: 142 45% 35%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 91%;
-    --input: 0 0% 96%;
-    --ring: 142 70% 49%;
+    --border: 45 10% 80%;
+    --input: 45 15% 90%;
+    --ring: 142 45% 35%;
 
     --radius: 0.75rem;
     
     /* Custom gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(142 70% 49%), hsl(142 70% 58%));
-    --gradient-hero: linear-gradient(135deg, hsl(142 70% 49% / 0.05), hsl(142 70% 49% / 0.02));
+    --gradient-primary: linear-gradient(135deg, hsl(142 45% 35%), hsl(142 45% 42%));
+    --gradient-hero: linear-gradient(135deg, hsl(45 15% 92%), hsl(45 20% 88%));
 
     --sidebar-background: 0 0% 98%;
 

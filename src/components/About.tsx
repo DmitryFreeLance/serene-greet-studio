@@ -4,7 +4,7 @@ import { MessageCircle, Award, Users, Zap } from "lucide-react";
 
 export const About = () => {
   return (
-    <section id="about" className="py-24 bg-muted/30">
+    <section id="about" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
