@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MessageCircle, CheckCircle } from "lucide-react";
 import heroImage from "@/assets/hero-image.webp";
+import expertPhoto from "@/assets/expert-photo.png";
 
 export const Hero = () => {
   return (
@@ -13,30 +14,40 @@ export const Hero = () => {
               У вас заблокировали ватцап?
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              Но что делать, если ваш аккаунт заблокирован? Мы поможем восстановить доступ 
-              к вашему WhatsApp с гарантией 100%.
+              Профессиональная разблокировка WhatsApp и WhatsApp Business с гарантией 100%. 
+              Более 5000 восстановленных аккаунтов за 2 года работы.
             </p>
           </div>
 
-          <div className="bg-primary/5 p-6 rounded-2xl border border-primary/20">
-            <div className="flex items-start gap-4">
-              <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
-                <MessageCircle className="h-6 w-6 text-primary-foreground" />
+          {/* Expert Section */}
+          <div className="bg-gradient-to-r from-primary/5 to-primary/10 p-8 rounded-3xl border border-primary/20 relative overflow-hidden">
+            <div className="flex items-center gap-6 relative z-10">
+              <div className="relative">
+                <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white shadow-lg">
+                  <img 
+                    src={expertPhoto} 
+                    alt="Павел Узданов - эксперт по разблокировке WhatsApp" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                  <CheckCircle className="h-5 w-5 text-primary-foreground" />
+                </div>
               </div>
-              <div className="space-y-3">
-                <h3 className="text-xl font-semibold text-foreground">Аккаунт заблокирован?</h3>
-                <p className="text-muted-foreground">
-                  Профессиональная разблокировка WhatsApp и WhatsApp Business. 
-                  Более 5000 восстановленных аккаунтов с гарантией результата.
+              <div className="flex-1">
+                <h3 className="text-2xl font-bold text-foreground mb-2">Павел Узданов</h3>
+                <p className="text-primary font-semibold mb-2">Эксперт по разблокировке WhatsApp</p>
+                <p className="text-muted-foreground text-sm mb-4">
+                  2 года опыта • 5000+ восстановленных аккаунтов • 100% гарантия результата
                 </p>
-                <div className="flex flex-wrap gap-3 pt-2">
-                  <Button variant="outline" size="lg" asChild>
+                <div className="flex flex-wrap gap-3">
+                  <Button variant="outline" size="sm" asChild>
                     <a href="tel:+73832188048">
                       <Phone className="h-4 w-4" />
                       Позвонить
                     </a>
                   </Button>
-                  <Button size="lg" asChild>
+                  <Button size="sm" asChild>
                     <a href="https://t.me/bosnsk" target="_blank" rel="noopener noreferrer">
                       <MessageCircle className="h-4 w-4" />
                       Telegram
@@ -45,20 +56,32 @@ export const Hero = () => {
                 </div>
               </div>
             </div>
+            
+            {/* Background Pattern */}
+            <div className="absolute top-0 right-0 w-32 h-32 opacity-10">
+              <MessageCircle className="w-full h-full text-primary" />
+            </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="flex items-center gap-3 p-4 bg-accent/30 rounded-xl">
-              <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
-              <span className="text-sm font-medium">100% гарантия</span>
+          {/* Stats Section */}
+          <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl border border-primary/10 shadow-sm">
+            <div className="text-center mb-4">
+              <h4 className="text-lg font-semibold text-foreground mb-2">Почему выбирают нас?</h4>
             </div>
-            <div className="flex items-center gap-3 p-4 bg-accent/30 rounded-xl">
-              <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
-              <span className="text-sm font-medium">5000+ аккаунтов</span>
-            </div>
-            <div className="flex items-center gap-3 p-4 bg-accent/30 rounded-xl">
-              <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
-              <span className="text-sm font-medium">20 дней в среднем</span>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="flex items-center gap-3 p-3 bg-gradient-to-r from-primary/5 to-primary/10 rounded-xl border border-primary/20">
+                <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
+                <span className="text-sm font-medium">100% гарантия</span>
+              </div>
+              <div className="flex items-center gap-3 p-3 bg-gradient-to-r from-primary/5 to-primary/10 rounded-xl border border-primary/20">
+                <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
+                <span className="text-sm font-medium">5000+ аккаунтов</span>
+              </div>
+              <div className="flex items-center gap-3 p-3 bg-gradient-to-r from-primary/5 to-primary/10 rounded-xl border border-primary/20">
+                <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
+                <span className="text-sm font-medium">20 дней в среднем</span>
+              </div>
             </div>
           </div>
         </div>
