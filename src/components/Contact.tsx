@@ -11,7 +11,7 @@ export const Contact = () => {
             Свяжитесь со мной
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Готов помочь разблокировать ваш WhatsApp прямо сейчас
+            Готов помочь разблокировать ваш Вацап прямо сейчас
           </p>
         </div>
 

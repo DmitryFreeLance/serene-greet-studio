@@ -6,7 +6,7 @@ export const Problems = () => {
     {
       icon: Ban,
       title: "Массовые рассылки",
-      description: "WhatsApp блокирует за отправку сообщений большому количеству контактов",
+      description: "Вацап блокирует за отправку сообщений большому количеству контактов",
     },
     {
       icon: AlertTriangle,
@@ -30,10 +30,10 @@ export const Problems = () => {
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white">
-            Почему блокируют WhatsApp?
+            Почему блокируют Вацап?
           </h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
-            WhatsApp активно борется со спамом и нарушениями. Вот основные причины блокировки аккаунтов
+            Вацап активно борется со спамом и нарушениями. Вот основные причины блокировки аккаунтов
           </p>
         </div>
 
@@ -60,7 +60,7 @@ export const Problems = () => {
             Аккаунт уже заблокирован?
           </h3>
           <p className="text-lg text-white/80 mb-6 max-w-2xl mx-auto">
-            Не паникуйте! Я помогу восстановить доступ к вашему WhatsApp используя
+            Не паникуйте! Я помогу восстановить доступ к вашему Вацап используя
             проверенные методы и уникальное программное обеспечение.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">

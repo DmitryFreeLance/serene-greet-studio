@@ -6,14 +6,14 @@ export const Services = () => {
   const services = [
     {
       icon: MessageCircle,
-      title: "Разблокировка WhatsApp",
-      description: "Восстановление заблокированных личных аккаунтов WhatsApp",
+      title: "Разблокировка Вацап",
+      description: "Восстановление заблокированных личных аккаунтов Вацап",
       features: ["Любые причины блокировки", "Быстрое восстановление", "Гарантия результата"],
     },
     {
       icon: Shield,
-      title: "WhatsApp Business",
-      description: "Разблокировка бизнес-аккаунтов WhatsApp для компаний",
+      title: "Вацап Business",
+      description: "Разблокировка бизнес-аккаунтов Вацап для компаний",
       features: ["Восстановление бизнес-функций", "Сохранение контактов", "Минимальные простои"],
     },
     {
@@ -33,13 +33,13 @@ export const Services = () => {
             Мои услуги
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Профессиональная разблокировка аккаунтов WhatsApp с гарантией результата
+            Профессиональная разблокировка аккаунтов Вацап с гарантией результата
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="border-border hover:shadow-lg transition-all duration-300 hover:scale-105">
+            <Card key={index} className="border-border hover:shadow-lg transition-all duration-300 hover:scale-105 flex flex-col">
               <CardHeader className="text-center pb-4">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <service.icon className="h-8 w-8 text-primary" />
@@ -49,8 +49,8 @@ export const Services = () => {
                   {service.description}
                 </CardDescription>
               </CardHeader>
-              <CardContent className="space-y-4">
-                <ul className="space-y-2">
+              <CardContent className="space-y-4 flex-grow flex flex-col">
+                <ul className="space-y-2 flex-grow">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center gap-2 text-sm">
                       <div className="w-1.5 h-1.5 bg-primary rounded-full"></div>
@@ -58,7 +58,7 @@ export const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <Button variant="outline" className="w-full" asChild>
+                <Button variant="outline" className="w-full mt-auto" asChild>
                   <a href="#contact">
                     Узнать подробнее
                   </a>

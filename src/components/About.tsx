@@ -15,7 +15,7 @@ export const About = () => {
               <div className="space-y-6 text-lg text-muted-foreground">
                 <p>
                   Меня зовут <span className="font-semibold text-foreground">Павел Узданов</span>, 
-                  и я профессионально занимаюсь разблокировкой аккаунтов WhatsApp уже более 2 лет.
+                  и я профессионально занимаюсь разблокировкой аккаунтов Вацап уже более 2 лет.
                 </p>
                 <p>
                   За это время я помог восстановить более <span className="font-semibold text-primary">5000 аккаунтов</span>, 
@@ -71,7 +71,7 @@ export const About = () => {
                 <p className="text-muted-foreground">
                   Восстанавливаю сложные аккаунты, даже тогда, когда это кажется невозможным! 
                   Разработанная программа помогает восстановить доступ как для классического 
-                  мессенджера, так и для WhatsApp Business.
+                  мессенджера, так и для Вацап Business.
                 </p>
               </div>
             </Card>
@@ -81,7 +81,7 @@ export const About = () => {
                 <h3 className="text-xl font-semibold text-foreground">Гарантия результата</h3>
                 <p className="text-muted-foreground">
                   Я нацелен на результат, поэтому верну деньги, если не разблокирую 
-                  ваш WhatsApp за 70 дней. Восстанавливаю даже аккаунты, заблокированные 
+                  ваш Вацап за 70 дней. Восстанавливаю даже аккаунты, заблокированные 
                   навсегда без возможности обжалования.
                 </p>
                 <div className="text-sm text-primary font-medium">

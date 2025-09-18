@@ -8,42 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Beige background scheme */
-    --background: 45 15% 92%; /* Light beige */
+    /* Custom background scheme */
+    --background: 39 77% 95%; /* rgb(252, 245, 235) */
     --foreground: 0 0% 11%; /* Black text */
 
-    --card: 45 15% 95%; /* Lighter beige for cards */
+    --card: 39 77% 97%; /* Lighter version for cards */
     --card-foreground: 0 0% 11%;
 
-    --popover: 45 15% 95%;
+    --popover: 39 77% 97%;
     --popover-foreground: 0 0% 11%;
 
-    /* Dark green primary colors */
-    --primary: 142 45% 35%; /* Dark green */
+    /* Custom green primary colors */
+    --primary: 142 70% 49%; /* rgb(37, 211, 102) */
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 142 45% 28%;
+    --primary-hover: 142 70% 42%;
 
     --secondary: 0 0% 15%; /* Black for sections */
     --secondary-foreground: 0 0% 100%; /* White text on black */
 
-    --muted: 45 10% 85%;
+    --muted: 39 50% 85%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 45 20% 88%; /* Accent beige */
-    --accent-foreground: 142 45% 35%;
+    --accent: 39 77% 90%; /* Accent beige */
+    --accent-foreground: 142 70% 49%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 45 10% 80%;
-    --input: 45 15% 90%;
-    --ring: 142 45% 35%;
+    --border: 39 50% 80%;
+    --input: 39 77% 92%;
+    --ring: 142 70% 49%;
 
     --radius: 0.75rem;
     
     /* Custom gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(142 45% 35%), hsl(142 45% 42%));
-    --gradient-hero: linear-gradient(135deg, hsl(45 15% 92%), hsl(45 20% 88%));
+    --gradient-primary: linear-gradient(135deg, hsl(142 70% 49%), hsl(142 70% 58%));
+    --gradient-hero: linear-gradient(135deg, hsl(39 77% 95%), hsl(39 77% 90%));
 
     --sidebar-background: 0 0% 98%;
 

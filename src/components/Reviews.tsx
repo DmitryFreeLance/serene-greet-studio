@@ -12,7 +12,7 @@ export const Reviews = () => {
     },
     {
       name: "Мария С.",
-      text: "Заблокировали WhatsApp без объяснения причин. Павел разобрался с проблемой за 18 дней. Очень благодарна за помощь! Теперь рекомендую всем знакомым.",
+      text: "Заблокировали Вацап без объяснения причин. Павел разобрался с проблемой за 18 дней. Очень благодарна за помощь! Теперь рекомендую всем знакомым.",
       rating: 5,
       date: "1 месяц назад"
     },
@@ -89,7 +89,7 @@ export const Reviews = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="outline" size="lg" asChild>
-              <a href="https://t.me/WhatsAppblok" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/Vacapblok" target="_blank" rel="noopener noreferrer">
                 Перейти в Telegram-канал
               </a>
             </Button>

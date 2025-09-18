@@ -8,10 +8,10 @@ export const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <MessageCircle className="h-6 w-6 text-primary" />
-              <span className="font-bold text-lg">Разблокировка WhatsApp</span>
+              <span className="font-bold text-lg">Разблокировка Вацап</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Профессиональная помощь в восстановлении доступа к WhatsApp. 
+              Профессиональная помощь в восстановлении доступа к Вацап. 
               Более 5000 успешно разблокированных аккаунтов.
             </p>
           </div>
@@ -28,8 +28,8 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-semibold">Услуги</h3>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>Разблокировка WhatsApp</p>
-              <p>Восстановление WhatsApp Business</p>
+              <p>Разблокировка Вацап</p>
+              <p>Восстановление Вацап Business</p>
               <p>Экстренная помощь</p>
             </div>
           </div>
@@ -37,7 +37,7 @@ export const Footer = () => {
         
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2025 Разблокировка WhatsApp. Все права защищены.
+            © 2025 Разблокировка Вацап. Все права защищены.
           </p>
         </div>
       </div>

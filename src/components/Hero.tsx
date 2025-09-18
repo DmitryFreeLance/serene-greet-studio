@@ -14,7 +14,7 @@ export const Hero = () => {
               У вас заблокировали ватцап?
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              Профессиональная разблокировка WhatsApp и WhatsApp Business с гарантией 100%. 
+              Профессиональная разблокировка Вацап и Вацап Business с гарантией 100%. 
               Более 5000 восстановленных аккаунтов за 2 года работы.
             </p>
           </div>
@@ -26,7 +26,7 @@ export const Hero = () => {
                 <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white shadow-lg">
                   <img 
                     src={expertPhoto} 
-                    alt="Павел Узданов - эксперт по разблокировке WhatsApp" 
+                    alt="Павел Узданов - эксперт по разблокировке Вацап" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -36,7 +36,7 @@ export const Hero = () => {
               </div>
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-foreground mb-2">Павел Узданов</h3>
-                <p className="text-primary font-semibold mb-2">Эксперт по разблокировке WhatsApp</p>
+                <p className="text-primary font-semibold mb-2">Эксперт по разблокировке Вацап</p>
                 <p className="text-muted-foreground text-sm mb-4">
                   2 года опыта • 5000+ восстановленных аккаунтов • 100% гарантия результата
                 </p>
@@ -66,7 +66,7 @@ export const Hero = () => {
           {/* Stats Section */}
           <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl border border-primary/10 shadow-sm">
             <div className="text-center mb-4">
-              <h4 className="text-lg font-semibold text-foreground mb-2">Почему выбирают нас?</h4>
+              <h4 className="text-lg font-semibold text-foreground mb-2">Почему выбирают меня?</h4>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -103,7 +103,7 @@ export const Hero = () => {
               
               {/* WhatsApp header */}
               <div className="h-16 bg-primary flex items-center px-4 text-primary-foreground">
-                <div className="text-lg font-semibold">WhatsApp</div>
+                <div className="text-lg font-semibold">Вацап</div>
               </div>
               
               {/* Block message */}
@@ -114,7 +114,7 @@ export const Hero = () => {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold text-foreground">Аккаунт заблокирован</h3>
-                    <p className="text-sm text-muted-foreground">Ваш номер телефона заблокирован для использования WhatsApp</p>
+                    <p className="text-sm text-muted-foreground">Ваш номер телефона заблокирован для использования Вацап</p>
                   </div>
                 </div>
               </div>
