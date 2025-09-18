@@ -10,11 +10,8 @@ export const Hero = () => {
         <div className="space-y-8">
           <div className="space-y-6">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
-              WhatsApp
+              У вас заблокировали ватцап?
             </h1>
-            <div className="text-2xl md:text-3xl text-foreground font-light">
-              Простое. Надежное. Приватное.
-            </div>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
               Но что делать, если ваш аккаунт заблокирован? Мы поможем восстановить доступ 
               к вашему WhatsApp с гарантией 100%.
@@ -98,24 +95,6 @@ export const Hero = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          
-          {/* Expert card */}
-          <div className="absolute -bottom-8 -left-8 bg-background p-6 rounded-2xl shadow-xl border border-border max-w-xs">
-            <div className="space-y-3">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold text-lg">П</span>
-                </div>
-                <div>
-                  <p className="font-semibold text-foreground">Павел Узданов</p>
-                  <p className="text-sm text-muted-foreground">Эксперт по разблокировке</p>
-                </div>
-              </div>
-              <p className="text-sm text-muted-foreground">
-                "Помогу восстановить ваш WhatsApp за 20 дней"
-              </p>
             </div>
           </div>
         </div>

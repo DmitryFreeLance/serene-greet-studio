@@ -29,10 +29,10 @@ export const Problems = () => {
     <section className="py-24 bg-secondary text-secondary-foreground">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+          <h2 className="text-3xl md:text-4xl font-bold text-white">
             Почему блокируют WhatsApp?
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-white/80 max-w-3xl mx-auto">
             WhatsApp активно борется со спамом и нарушениями. Вот основные причины блокировки аккаунтов
           </p>
         </div>
@@ -56,10 +56,10 @@ export const Problems = () => {
         </div>
 
         <div className="bg-primary/5 border border-primary/20 rounded-2xl p-8 mt-16 text-center">
-          <h3 className="text-2xl font-bold text-foreground mb-4">
+          <h3 className="text-2xl font-bold text-white mb-4">
             Аккаунт уже заблокирован?
           </h3>
-          <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
+          <p className="text-lg text-white/80 mb-6 max-w-2xl mx-auto">
             Не паникуйте! Я помогу восстановить доступ к вашему WhatsApp используя
             проверенные методы и уникальное программное обеспечение.
           </p>
